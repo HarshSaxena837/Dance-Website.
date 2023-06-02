@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.container{
+    background : center / cover no-repeat url("static/bg2.jpg");
+}
+h1{
+    text-align: center;
+    margin: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+h1:hover{
+    color: red;
+}
+.myInput{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    margin : 8px;
+    border: 2px solid brown;
+    border-radius: 12px;
+    /* background : center / cover no-repeat url("static/bg2.jpg"); */
+    outline: none;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 498px;
+    background : center / cover no-repeat url("static/bg2.jpg");
+}
+.btn{
+    margin: 34px 12px;
+    padding: 12px 151px;
+    width: 40%;
+    border-radius: 10px ;
+    color: cyan;
+    background: purple;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: orangered;
+}
